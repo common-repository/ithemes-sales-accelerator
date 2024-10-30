@@ -1,0 +1,633 @@
+@media screen and (min-width: 1887px) {
+	.more_options {
+	    margin-left: -194px;
+	}
+}
+
+@media screen and (min-width: 1650px) {
+	.nws1 {
+		display: none;
+	}
+	
+	.nws2 {
+		display: block;
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 1494px) {
+
+	.ro-number, .ro-total {
+	    font-size: .9rem;
+	}
+	
+	.nws1, .nws3 {
+		display: none;
+	}
+	
+	.nws2 {
+		display: block;
+	}
+	
+}
+
+@media screen and (max-width: 1384px) {
+
+	.menu_buttons div, .search_buttons div {
+    	padding: 10px 12px;
+	}
+	
+	#box-newslletter h1 {
+		font-size: .9em !important;
+		padding-bottom: 0 !important;
+	}
+	
+	#box-newslletter .inline {
+		padding-bottom: 0 !important;
+	}
+}
+
+@media screen and (max-width: 1320px) {
+	.menu_buttons div, .search_buttons div {
+	    padding: 10px 12px;
+	    font-size: .9em;
+	}
+
+}
+
+@media screen and (max-width: 1254px) {
+
+	.menu_buttons div, .search_buttons div {
+    	padding: 10px 10px;
+	}
+}
+
+@media screen and (max-width: 1235px) {
+/*
+	.search_buttons:nth-child(2) {
+		display: none;
+	}
+*/
+	
+	.search_buttons:nth-child(1) {
+		margin-right: 0;
+	}
+	
+	.daterangepicker.ltr {
+	    right: 40px !important;
+	    left: auto !important;
+	}
+	
+	.daterangepicker.opensright:after {
+		right: 15px;
+		left: auto;
+	}
+	
+	.daterangepicker.opensright:before {
+		right: 14px;
+		left: auto;
+	}
+	
+	.show-calendar {
+		margin-right: 0 !important;
+	}
+	
+}
+
+
+@media screen and (max-width: 1120px) {
+
+	#modal_content {
+    	padding: 50px 20px;
+    }
+
+	.menu_buttons div {
+    	padding: 10px 8px;
+    	font-size: .9em;
+	}
+	
+	
+	.everything {
+	    right: inherit;
+	    left: 1px;
+	    bottom: 0px;
+	}
+	
+	#box-title .grid-stack-item-content {
+		overflow-y: hidden;
+	}
+}
+
+@media screen and (max-width: 1068px) {
+
+	.menu_buttons_wrapper .row .col.l9 {
+		width: 85% !important;
+	}
+	
+	.menu_buttons_wrapper .row .col.l3 {
+		width: 15% !important;
+	}
+
+}
+
+@media screen and (max-width: 1025px) {
+
+	.menu_buttons div {
+    	padding: 10px 8px;
+    	font-size: .8em;
+	}
+	
+	.little_box .number_box {
+		font-size: .9em !important;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	
+	.more_options {
+	    margin-left: -437px;
+	}
+	
+	.menu_buttons_wrapper .row .col.l9, .menu_buttons_wrapper .row .col.l3  {
+		width: inherit !important;
+	}
+	
+	.range_txt {
+		left: 42px;
+		right: auto;	
+	}
+
+	.sb_left {
+		text-align: left !important;
+	}
+	
+	.menu_buttons div {
+    	padding: 10px 10px;
+    	font-size: .8em !important;
+	}
+	
+	.search_buttons:nth-child(2) {
+		display: -webkit-inline-box;
+	    display: -webkit-inline-flex;
+	    display: -moz-inline-box;
+	    display: -ms-inline-flexbox;
+	    display: inline-flex;
+	    -webkit-align-self: auto;
+	}
+	
+	.search_buttons:nth-child(1) {
+		margin-right: 8px;
+	}
+	
+	.daterangepicker.ltr {
+		left: 201px !important;
+		right: auto !important;
+	}
+	
+	.daterangepicker.opensright:after {
+		right: auto;
+		left: 14px;
+	}
+	
+	.daterangepicker.opensright:before {
+		right: auto;
+		left: 13px;
+	}
+	
+	.menu_buttons div, .search_buttons div {
+	    font-size: .8em !important;
+	}
+	
+	.search_buttons:nth-child(2) {
+		display: none !important;
+	}
+	
+}
+
+@media screen and (max-width: 960px) {
+	
+	#modal_content {
+		width: 70vw;
+		margin-left: 12%;
+	}
+	
+	.daterangepicker.ltr {
+		left: 71px !important;
+	}
+	
+	.daterangepicker.opensright:after {
+	    right: auto;
+	    left: 19px;
+	}
+
+
+	.daterangepicker.opensright:before {
+	    right: auto;
+	    left: 18px;
+	}
+	
+	.daterangepicker.ltr .ranges {
+	    float: left !important;
+	}
+
+}
+
+@media screen and (max-width: 850px) {
+	.variation_value {
+		font-size: .7em;
+	}
+	
+	.little_box .number_box {
+		font-size: .8em !important;
+	}
+}
+
+@media screen and (max-width: 809px) {
+	.menu_buttons div, .search_buttons div {
+	    font-size: .9em !important;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	.auto-fold #wpcontent {
+	    padding-left: 0 !important;
+	}
+
+	.daterangepicker.ltr {
+		left: 41px !important;
+	}
+	
+	.daterangepicker.opensright:after {
+	    right: auto;
+	    left: 15px;
+	}
+
+
+	.daterangepicker.opensright:before {
+	    right: auto;
+	    left: 14px;
+	}
+	
+	.fast-facts .grid-stack-item-content{
+	    background-position-y: -10px;
+	    background-position-x: 105%;
+	}
+	
+	.logo_wrapper {
+	    left: 0;
+	    top: 32px;
+	    right: inherit;
+	}
+	
+	.logo_wrapper img {
+		height: 40px !important;
+		width: auto;
+	}
+	
+	.h2_switch {
+		font-size: .8em !important;
+	}
+	
+	.menu_buttons {
+		display: grid;
+		width: 90%;
+	}
+	
+	.menu_buttons a {
+		border-right: 0;
+	}
+	
+	.menu_reports.menu_active {
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	
+	.menu_customers.menu_active {
+	    border-top-left-radius: 0;
+	    border-bottom-left-radius: 10px;
+	    border-top-right-radius: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.variation_value {
+		font-size: 1em;
+	}
+	
+	.little_box .number_box {
+		font-size: .9em !important;
+	}
+}
+
+@media screen and (max-width: 740px) {
+
+	.menu_buttons div {
+    	padding: 10px 8px;
+    	font-size: .85em !important;
+	}
+	
+	.sm-hide {
+		display: none;
+	}
+	
+	.bc_table tbody td:nth-child(2) {
+		padding-left: 25px !important;
+	}
+	
+	.bc_table_head td:nth-child(2) {
+		padding-left: 25px !important;
+	}
+	
+	.daterangepicker.ltr .calendar.left .calendar-table {
+		padding-right: 0;
+	}
+	
+	.daterangepicker .calendar-table {
+		padding: 4px 0;
+	}
+	
+	.show-calendar {
+	    width: 610px !important;
+	}
+	
+	.ranges ul {
+		width: 120px !important;
+	}
+	
+	.daterangepicker.ltr .calendar.left {
+    	clear: none;
+    }
+    
+    .daterangepicker.ltr .left .daterangepicker_input {
+	    padding-right: 0;
+    }
+    
+}
+
+@media screen and (min-width: 730px) {
+	.daterangepicker.ltr .ranges {
+	    float: right;
+	    padding: 10px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.menu_buttons div {
+	    padding: 10px 7px;
+	    font-size: .8em !important;
+	}
+}
+
+@media screen and (max-width: 643px) {
+	
+	.menu_upgrade {
+	    border-radius: 10px;
+    }
+	
+	.daterangepicker .calendar th, .daterangepicker .calendar td {
+	    min-width: 29px !important;
+	}
+	
+	.show-calendar {
+	    width: 566px !important;
+	}
+
+	.search_buttons:nth-child(2) {
+		display: none !important;
+	}
+	
+	.menu_buttons div {
+    	padding: 10px 7px;
+    	font-size: .8em !important;
+	}
+	
+	.menu_active {
+	    border-radius: 10px;
+	}
+	
+	.show-calendar {
+		left: auto !important;
+	    right: 0 !important;
+		width: 690px;
+		margin-right: 35px;
+	}
+
+	.s-hide {
+		display: none;
+	}
+	
+	.ranges ul {
+	    width: 100% !important;
+	}
+	
+	.daterangepicker.ltr .ranges {
+ 	   float: none !important;
+	}
+	
+	.show-calendar {
+	    width: 512px !important;
+	}
+	
+	.ranges li {
+	    font-size: 1.2em;
+	}
+	
+	daterangepicker .calendar th, .daterangepicker .calendar td {
+	    min-width: 35px !important;
+	}
+	
+	.daterangepicker.ltr .calendar .right {
+		float: left !important;
+	}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+	h1 {
+		margin: 0 !important;
+	}
+		
+	.hs_logo {
+	    top: 65px;
+	}
+	
+	.sb_left_md {
+		text-align: left !important;
+	}
+		
+	.daterangepicker .calendar th, .daterangepicker .calendar td {
+	    min-width: 26px !important;
+	}
+	
+	.show-calendar {
+	    width: 512px !important;
+	}
+}
+
+@media screen and (max-width: 564px) {
+	.daterangepicker {
+	    display: none;
+	}
+	
+	.show-calendar {
+		left: auto !important;
+	    right: 0 !important;
+		width: 690px;
+		margin-right: 35px;
+	}
+
+	.s-hide {
+		display: none;
+	}
+	
+	.ranges ul {
+	    width: 100% !important;
+	}
+	
+	.daterangepicker.ltr .ranges {
+ 	   float: none !important;
+	}
+	
+	.show-calendar {
+	    width: 445px !important;
+	}
+	
+	.calendar {
+		width: 205px !important;
+	}
+	
+	.ranges li {
+	    font-size: 1.2em;
+	}
+	
+}
+
+@media screen and (max-width: 525px) {
+	.more_options {display: none;}
+}
+
+
+@media screen and (max-width: 490px) {
+	
+	.manage_dashboard {
+		position: absolute;
+		right: 45px;
+		top: 143px;
+	}
+	
+	#rst_reporting_wrapper {
+		padding-top: 50px;
+	}
+	
+	.hs_logo {
+	    top: 96px;
+	    left: 0px;
+	    height: 25px;
+	}
+	
+	.show-calendar {
+	    width: 280px !important;
+	}
+	
+	.daterangepicker .calendar th, .daterangepicker .calendar td {
+	    min-width: 34px !important;
+	}
+	
+	.left .input-mini, .right .input-mini {
+		margin: 0 !important;
+		padding: 0 40px !important;
+	}
+	
+	.daterangepicker.ltr {
+	    display: none;
+	}
+	
+	.calendar {
+		width: 260px !important;
+	}
+	
+}
+
+@media screen and (max-width: 375px) {
+	.hs_logo {
+	    top: 45px;
+		left: 0;
+	}
+	
+	#rst_reporting_wrapper {
+		padding-top: 50px;
+	}
+	
+	.title h1, .search_buttons:nth-child(2) {
+		display: none !important;
+	}
+	
+	.manage_dashboard {
+		position: absolute;
+		right: 44px;
+		top: 93px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.hs_logo {
+	    top: 43px;
+	    right: 44px;
+	}
+	
+	.title h1, .search_buttons:nth-child(2) {
+		display: none !important;
+	}
+	
+	.daterangepicker {
+		display: none ;
+		width: 240px;
+	}
+	
+	.left .input-mini {
+		margin-right: 0 !important;
+	}
+	
+	.daterangepicker .calendar th, .daterangepicker .calendar td {
+	    min-width: 32px !important;
+	}
+	
+	.show-calendar {
+	    width: 248px !important;
+	}
+	
+	.ranges div, .ranges ul, .ranges {
+		width: 217px !important;
+	}
+	
+	.ranges ul {
+		margin: 0 !important;
+	}
+	
+	.menu_buttons div {
+	    padding: 10px 8px;
+	    font-size: .8em !important;
+	}
+	
+	.h2_switch {
+		font-size: 1em !important;
+	}
+	
+	.manage_dashboard {
+		font-size: .8em;
+	}
+	
+	.search_buttons:nth-child(1) {
+    	margin-right: 0;
+	}
+	
+	.menu_buttons:nth-child(1) {
+		margin-right: 5px !important;
+	}
+	
+}

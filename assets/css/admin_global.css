@@ -1,0 +1,154 @@
+#wpadminbar .it_rst_toolbar_icon img {
+	vertical-align: middle;
+}
+
+.it_rst_db_upgrade{
+	border-left-color: #0085ba !important;
+}
+
+#wpadminbar .it_rst_issue_counter {
+    display: inline;
+    padding: 1px 7px 1px 6px!important;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.it_rst_hide {
+	display: none;
+}
+
+.it_rst_disabled {
+	pointer-events: none;
+	color: #bababa !important;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+	.box_content.second_box .graph {
+	    top: 125px;
+	}
+	
+	.box_content.second_box .graph img {
+		height: 160px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 1225px) {
+	
+	.box_content.second_box .graph img {
+		height: 120px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.inside.settings {
+		padding: 0 !important;
+	}
+	
+	#wpbody-content {
+		padding-bottom: 20px !important;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	.inside.settings .form-table tr {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.box_content.second_box .graph img {
+		height: 100px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.inside.settings .form-table tr {
+		display: inherit;
+	}
+	
+	.box_content.second_box .graph img {
+		display: none;
+	}
+	
+	.inside.settings .form-table tr > th, .inside.settings .form-table tr > td {
+		width: 100%;
+	}
+	
+	#rst_reporting_wrapper .inline {
+		display: block !important;
+	}
+	
+	#rst_reporting_wrapper .inline img {
+		height: 40px;
+		position: absolute;
+		top: 60px;
+	}
+	
+	#rst_reporting_wrapper .name_page {
+		display: none !important;
+	}
+	
+	#rst_reporting_wrapper .btt_dashboard {
+		margin-top: -10px;
+	}
+	
+	#rst_reporting_wrapper {
+	    padding: 40px 40px 150px 40px;
+	}
+	
+	body {
+		overflow-x: hidden;
+	}
+	
+	.settings_tabs .nav-tab {
+	    padding: 4px 0px;
+	}
+	
+	.settings_tabs {
+		padding: 0 20px;
+	}
+	
+	#wpbody select {
+		font-size: 13px !important;
+	}
+	
+	.switch-modules {
+		float: left;
+	}
+	
+	#configWin .container {
+	    width: 90vw !important;
+	}
+	
+	#configWin .container h4 > span {
+		position: inherit !important;
+		right: inherit !important;
+		margin-top: inherit !important;
+	}
+	
+	.box_content.last_box {
+		padding: 50px 0px !important;
+	}
+	
+	.help_btts p {
+		padding: 0 10px;
+	}
+	
+	.help_btts .inline {
+		display: inline-grid;
+	}
+	
+	.help_btts .inline > span {
+		margin: 10px 0;
+	}
+	
+	.img_footer img {
+		margin-left: -60px;
+		margin-top: inherit !important;
+	}
+	
+}

@@ -1,0 +1,78 @@
+/* The switch - the box around the slider */
+.switchhs {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 23px;
+}
+
+/* Hide default HTML checkbox */
+.switchhs input {display:none;}
+
+/* The slider */
+.sliderhs {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.sliderhs:before {
+	position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 4px;
+    bottom: 5px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .sliderhs {
+  background-color: #2196F3;
+}
+
+input:focus + .sliderhs {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .sliderhs:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.sliderhs.round {
+  border-radius: 34px;
+}
+
+.sliderhs.round:before {
+  border-radius: 50%;
+}
+
+.h2_switch {
+	display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+	display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-self: auto;
+    padding-left: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0;
+    padding-top: 3px;
+    font-size: 1.1em;
+}
+
+.rst_reporting_switch {
+	margin-top: 20px;
+	position: relative;
+}

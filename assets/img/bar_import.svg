@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="20px" viewBox="0 0 256 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Reports NavButton</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Activation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-607.000000, -446.000000)" id="Welcome">
+            <g transform="translate(274.000000, 170.000000)">
+                <g id="Reports-NavButton" transform="translate(333.000000, 276.000000)">
+                    <rect id="Rectangle-Copy-9" fill="#EFEFEF" x="0" y="0" width="256" height="20" rx="10"></rect>
+                    <path d="M0,10 C0,4.4771525 4.48292932,0 9.9986976,0 L176,0 L176,20 L9.9986976,20 C4.4765694,20 0,15.5240618 0,10 L0,10 Z" id="Rectangle-Copy-12" fill="#4DC2F0"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
